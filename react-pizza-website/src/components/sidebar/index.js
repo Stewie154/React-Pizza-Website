@@ -9,7 +9,7 @@ const Sidebar = ({toggle, isOpen}) => {
             <SidebarMenu>
                 <SidebarLink to="/">Pizzas</SidebarLink>
                 <SidebarLink to="/">Deserts</SidebarLink>
-                <SidebarLink to="/">Full Menu</SidebarLink>
+                <SidebarLink to="/">Home</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to="/">Order Now</SidebarRoute>

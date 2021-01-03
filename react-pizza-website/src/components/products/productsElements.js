@@ -24,6 +24,13 @@ export const ProductImg = styled.img`
     min-width: 300px;
     max-width: 100%;
     box-shadow: 8px 8px #fdc500;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        height: 350px;
+        min-width: 350px;
+        box-shadow: none;
+    }
 `
 
 export const ProductsHeading = styled.h1`
