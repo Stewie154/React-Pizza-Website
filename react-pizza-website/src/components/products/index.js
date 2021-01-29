@@ -13,7 +13,7 @@ import {
 } from './productsElements';
 const Products = ({ heading, data }) => {
     return (
-        <ProductsContainer>
+        <ProductsContainer id={ data[0].alt === 'Pizza' ? "pizzas" : "desserts"}>
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductWrapper>
                 {data.map( (product, index) => {
